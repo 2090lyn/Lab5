@@ -54,7 +54,7 @@ function init() {
 
     // Change face to open mouth when speaking starts
     utterance.onstart = () => {
-      faceImg.src = 'assets/images/open.png';
+      faceImg.src = 'assets/images/smiling-open.png';
     };
 
     // Change face back to smiling when speaking ends
